@@ -47,24 +47,7 @@ I would like to know more about BUGGA Academy.
     <main className="bg-white text-slate-900">
 
       {/* ================= BREADCRUMB ================= */}
-      <section className="bg-slate-950 text-white">
-        <div className="mx-auto max-w-7xl px-5 py-5 sm:px-6 lg:px-8">
-          <div className="flex items-center gap-2 text-sm text-slate-300">
-            <a
-              href="/"
-              className="transition hover:text-white"
-            >
-              Home
-            </a>
-
-            <span>/</span>
-
-            <span className="font-medium text-white">
-              Contact Us
-            </span>
-          </div>
-        </div>
-      </section>
+      
 
       {/* ================= HERO ================= */}
       <section className="relative overflow-hidden bg-slate-50">
@@ -82,7 +65,6 @@ I would like to know more about BUGGA Academy.
             </span>
 
             <h1 className="mt-6 text-4xl font-black tracking-tight text-slate-950 sm:text-5xl lg:text-6xl">
-              Contact
               <span className="text-blue-600">
                 {" "}BUGGA JEE
               </span>
