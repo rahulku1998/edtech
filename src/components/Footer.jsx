@@ -12,7 +12,7 @@ function Footer() {
             <Link to="/" className="inline-block">
               <h2 className="text-2xl font-extrabold tracking-tight">
                 BUGGA
-                <span className="text-blue-500"> Academy</span>
+                <span className="text-blue-500"> JEE</span>
               </h2>
             </Link>
 
@@ -129,7 +129,7 @@ function Footer() {
           </p>
 
           <p className="text-xs text-slate-500">
-            © {new Date().getFullYear()} BUGGA Academy. All rights reserved.
+            © {new Date().getFullYear()} BUGGA JEE. All rights reserved.
           </p>
 
         </div>

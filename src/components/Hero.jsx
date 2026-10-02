@@ -129,65 +129,60 @@ function Hero() {
 {/* ================= RIGHT SIDE ================= */}
 <div className="relative">
 
-  {/* Main Founder Card */}
-  <div className="relative mx-auto max-w-lg overflow-hidden rounded-[2.5rem] bg-gradient-to-br from-blue-700 via-blue-800 to-indigo-950 p-2 shadow-2xl shadow-blue-900/30">
+  {/* Founder Card */}
+  <div className="relative mx-auto max-w-lg overflow-hidden rounded-[2.5rem] bg-white shadow-2xl shadow-slate-300/30">
 
-    <div className="relative min-h-[620px] overflow-hidden rounded-[2rem] bg-gradient-to-b from-blue-600 via-blue-700 to-indigo-950">
+    {/* Photo */}
+    <div className="relative h-[680px] overflow-hidden bg-slate-100">
 
-      {/* Decorative Background */}
-      <div className="absolute -right-24 -top-24 h-72 w-72 rounded-full border-[45px] border-white/5" />
+      <img
+        src="/bipin.jpg"
+        alt="Bipin Bihari - Founder & Lead Mentor"
+        className="absolute inset-0 h-full w-full object-cover object-top"
+      />
 
-      <div className="absolute -bottom-32 -left-32 h-80 w-80 rounded-full border-[55px] border-white/5" />
+      {/* Only bottom gradient for text readability */}
+      <div className="absolute inset-x-0 bottom-0 z-10 h-72 bg-gradient-to-t from-black/90 via-black/50 to-transparent" />
 
-      <div className="absolute right-10 top-20 h-32 w-32 rounded-full bg-blue-400/20 blur-3xl" />
-
-      {/* Small Label */}
-      <div className="absolute left-7 top-7 z-30">
-        <p className="text-xs font-bold uppercase tracking-[0.25em] text-blue-100">
-          BUGGA Academy
-        </p>
-
-        <div className="mt-3 h-1 w-10 rounded-full bg-white/70" />
+      {/* Top Label */}
+      <div className="absolute left-7 top-7 z-20 sm:left-9 sm:top-9">
+        <div className="rounded-full border border-white/20 bg-black/20 px-4 py-2 backdrop-blur-md">
+          <p className="text-xs font-bold uppercase tracking-[0.2em] text-white">
+            BUGGA Academy
+          </p>
+        </div>
       </div>
 
-      {/* ================= FOUNDER PHOTO ================= */}
-      <div className="absolute inset-x-0 bottom-0 z-10 flex justify-center">
+      {/* Founder Content */}
+      <div className="absolute bottom-0 left-0 right-0 z-20 p-7 sm:p-9">
 
-        <img
-          src="/bipin.jpg"
-          alt="Bipin Bihari - Founder & Lead Mentor"
-          className="h-[570px] w-auto max-w-none object-contain object-bottom drop-shadow-[0_20px_30px_rgba(0,0,0,0.35)]"
-        />
-
-      </div>
-
-      {/* Bottom Gradient */}
-      <div className="absolute inset-x-0 bottom-0 z-20 h-64 bg-gradient-to-t from-indigo-950 via-indigo-950/80 to-transparent" />
-
-      {/* ================= FOUNDER CONTENT ================= */}
-      <div className="absolute bottom-0 left-0 right-0 z-30 p-7 sm:p-9">
-
-        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-blue-200">
+        <p className="text-xs font-bold uppercase tracking-[0.2em] text-blue-300">
           Founder & Lead Mentor
         </p>
 
-        <h2 className="mt-2 text-3xl font-black text-white sm:text-4xl">
+        <h2 className="mt-2 text-3xl font-black tracking-tight text-white sm:text-4xl">
           Bipin Bihari
         </h2>
 
-        <p className="mt-2 text-sm font-medium text-blue-100">
+        <p className="mt-2 text-sm font-medium text-white/80">
           B.Tech • IIT (BHU) Varanasi
         </p>
 
-        <p className="mt-1 text-xs text-blue-200">
-          Ex-Faculty at <span className="font-bold text-red-500">Motion</span> & <span className="font-bold text-red-500">Sri Chaitanya</span>
+        <p className="mt-1 text-xs text-white/60">
+          Ex-Faculty at{" "}
+          <span className="font-bold text-red-400">
+            Motion
+          </span>{" "}
+          &{" "}
+          <span className="font-bold text-red-400">
+            Sri Chaitanya
+          </span>
         </p>
 
-        {/* Bottom Line */}
-        <div className="mt-5 flex items-center gap-2">
-          <span className="h-1.5 w-1.5 rounded-full bg-blue-300" />
+        <div className="mt-5 flex items-center gap-3">
+          <span className="h-1.5 w-1.5 rounded-full bg-blue-400" />
 
-          <p className="text-xs font-medium text-blue-100">
+          <p className="text-xs font-medium text-white/70">
             Guiding students towards academic excellence
           </p>
         </div>
