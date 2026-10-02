@@ -2,14 +2,15 @@ import Course from "./Courses";
 import Faculty from "./Faculty";
 import WhyChooseUs from "./WhyChooseUs";
 import Hero from "./Hero";
-import Results from "./Results";
+
+import Contact from "./Contact";
 function Home(){
   return (
    <>
  <Hero/>
  <Course/>
   <WhyChooseUs/>
-  <Results/>
+  <Contact/>
   <Faculty/>
    </> 
   )

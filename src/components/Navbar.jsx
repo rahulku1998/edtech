@@ -1,12 +1,14 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+
 const navLinks = [
   {name:"Home", href: "/"},
   { name: "Courses", href: "/courses" },
+  {name:"Admisssion", href: "/admission"},
   { name: "Why Us", href: "/why-us" },
   { name: "Results", href: "/results" },
   { name: "Faculty", href: "/faculty" },
-  { name: "Batches", href: "/batches" },
+  {name:"Contact", href: "/contact"},
 ];
 
 function Navbar() {

@@ -13,6 +13,10 @@ import Footer from './components/Footer'
 import Batches from './components/Batches'
 import Faculty from './components/Faculty'
 import WhatsAppButton from './components/WhatsAppButton'
+import Admission from './components/Admission'
+import Contact from './components/Contact'
+import Demo from './components/Demo'
+import ScrollToTop from "./components/ScrollToTop";
 function App() {
   
 
@@ -26,8 +30,12 @@ function App() {
         <Route path="/results" element={<Results />} />
         <Route path="/batches" element={<Batches />} />
         <Route path="/faculty" element={<Faculty />} />
+        <Route path="/admission" element={<Admission />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/demo" element={<Demo />} />
       </Routes>
       <WhatsAppButton/>
+      <ScrollToTop />
       <Footer/>
     </>
     
