@@ -27,9 +27,7 @@ function WhatsAppButton() {
       </svg>
 
       {/* Text */}
-      <span className="text-sm font-bold">
-        Chat with us
-      </span>
+      
     </a>
   );
 }
