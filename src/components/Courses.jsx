@@ -1,6 +1,7 @@
 
 import { useState } from "react";
 import courses from "../data/courses";
+import { Link } from "react-router-dom";
 
 function Courses() {
   const [showForm, setShowForm] = useState(false);
@@ -230,7 +231,7 @@ ${formData.message || "I would like to know more about this course."}
 
             <button
               type="button"
-              onClick={() => openCourseForm("")}
+              link="/demo"
               className="shrink-0 rounded-xl bg-white px-6 py-3 text-sm font-bold text-slate-900 transition hover:bg-blue-50"
             >
               Book Free Counselling
