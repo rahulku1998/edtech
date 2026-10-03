@@ -7,13 +7,7 @@ function Faculty() {
       photo: "/bipin.jpg",
       featured: true,
     },
-    {
-      name: "Team BUGGA JEE",
-      role: "JEE/ NEET Faculty",
-      subject: "PCMB / Competitive Preparation",
-      photo: "/photo 2.jpg",
-      featured: false,
-    },
+    
     {
       name: "Team BUGGA JEE",
       role: "JEE /NEET Faculty",
@@ -21,21 +15,9 @@ function Faculty() {
       photo: "/photo3.jpg",
       featured: false,
     },
-    {
-      name: "Team BUGGA JEE",
-      role: "JEE /NEET Faculty",
-      subject: "PCMB / Competitive Preparation",
-      photo: "/photo4.jpg",
-      featured: false,
-    },
     
-    {
-      name: "Pooja Ma'am",
-      role: "Academic Faculty",
-      subject: "Foundation & School Preparation",
-      photo: "",
-      featured: false,
-    },
+    
+    
   ];
 
   const initials = (name) => {
