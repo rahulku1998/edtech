@@ -210,7 +210,7 @@ I want to enquire about admission for the academic session 2026-27.
           </a>
 
           <a
-            href="tel:+919358338687"
+            href="tel:+918102044250"
             className="rounded-xl border border-slate-300 bg-white px-7 py-3.5 text-center font-bold text-slate-800 transition hover:border-blue-500 hover:text-blue-600"
           >
             Call Admission Team
@@ -351,14 +351,14 @@ I want to enquire about admission for the academic session 2026-27.
 
             <div className="mt-8 space-y-4">
               <a
-                href="tel:+919358338687"
+                href="tel:+918102044250"
                 className="block rounded-xl bg-white px-5 py-4 text-center font-bold text-slate-950 transition hover:bg-blue-50"
               >
-                📞 +91 93583 38687
+                📞 +91 81020 44250
               </a>
 
               <a
-                href="https://wa.me/919358338687"
+                href="https://wa.me/918102044250?text=Hello%2C%20I%20want%20to%20know%20more%20about%20the%20courses%20and%20admissions."
                 target="_blank"
                 rel="noreferrer"
                 className="block rounded-xl border border-slate-700 px-5 py-4 text-center font-bold transition hover:bg-slate-900"
