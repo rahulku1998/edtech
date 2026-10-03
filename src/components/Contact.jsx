@@ -150,7 +150,7 @@ I would like to know more about BUGGA Academy.
               </h3>
 
               <p className="mt-2 break-all text-sm text-slate-600">
-                inaschool@gamil.com
+                buggajee.08@gmail.com
               </p>
             </a>
 
@@ -234,10 +234,10 @@ I would like to know more about BUGGA Academy.
                     </p>
 
                     <a
-                      href="mailto:inaschool@gamil.com"
+                      href="mailto:buggajee.08@gmail.com"
                       className="break-all text-slate-600 hover:text-blue-600"
                     >
-                      bipin@gamil.com
+                      buggajee.08@gmail.com
                     </a>
                   </div>
                 </div>
@@ -253,13 +253,13 @@ I would like to know more about BUGGA Academy.
                     </p>
 
                     <p className="mt-1 leading-6 text-slate-600">
-                      Tagore Bal Niketan School,
+                      Moti chowk, 1st Floor, Ranjit Ray Market,
                       <br />
-                      Ahuja Colony, Civil Line,
+                      Ply Mill Road, Behind Indian Oil Petrol Pump, Saraiya,
                       <br />
                       Bihar
                       <br />
-                      PIN Code - 304001
+                      PIN Code - 843126
                     </p>
                   </div>
                 </div>
@@ -464,8 +464,7 @@ I would like to know more about BUGGA Academy.
             </h2>
 
             <p className="mt-3 text-slate-600">
-              Tagore Bal Niketan School, Ahuja Colony, Civil Line,
-              Tonk, Rajasthan - 304001
+             Moti chowk, 1st Floor, Ranjit Ray Market, Ply Mill Road, Behind Indian Oil Petrol Pump, Saraiya, Bihar 843126
             </p>
           </div>
 
@@ -473,7 +472,7 @@ I would like to know more about BUGGA Academy.
 
             <iframe
               title="BUGGA Academy Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.562515692016!2d75.77737507447732!3d26.17837369126419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396e6161d86d3c6d%3A0x1e3a6a2363fc9428!2sTagore%20Bal%20Niketan%20School!5e0!3m2!1sen!2sin!4v1769065319068!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3584.9717540912775!2d85.1479037!3d26.034480199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed39f690c70237%3A0x3fd4afd349946146!2sBUGGA%20JEE!5e0!3m2!1sen!2sin!4v1790999456242!5m2!1sen!2sin"
               width="100%"
               height="420"
               style={{ border: 0 }}
